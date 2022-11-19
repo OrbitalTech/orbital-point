@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orbital Point</title>
+</head>
+
+<body>
+    <article>
+        <nav>
+            <a href="#">
+                <img src="./assets/orbital.svg" alt="Orbital Logo">
+            </a>
+        </nav>
+        <section>
+            <header>
+                <img src="./assets/cee.svg" alt="Cee Logo">
+            </header>
+            <div class="content">
+                <h1 class="capitalize">Drive</br>in peace</h1>
+                <p>Cee is here to help you avoid speed cameras,</br>traffic, accidents and other distractions so</br>you
+                    can enjoy a stable ride.</p>
+            </div>
+            <div class="download">
+                <p class="capitalize">Download app</p>
+                <div class="download-btns">
+                    <a href="">
+                        <img src="./assets/istore.svg" alt="Cee iOS Download Button">
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=com.orbital.cee">
+                        <img src="./assets/gplay.svg" alt="Cee Android Download Button">
+                    </a>
+                </div>
+                <a class="privacy" href="https://orbitaltech.github.io/CeePrivacyPolicy/">Privacy Policy</a>
+            </div>
+
+        </section>
+    </article>
+    <footer>
+        <a href="mailto:info@orbital-point.com">info@orbital-point.com</a>
+    </footer>
+</body>
+
+</html>
+<style>
+    @font-face {
+        font-family: 'Work Sans Bold';
+        src: url('./assets/fonts/WorkSans-Bold.ttf');  
+        }
+    @font-face {
+        font-family: 'Work Sans Med';
+        src: url('./assets/fonts/WorkSans-Medium.ttf');  
+        }
+    @font-face {
+        font-family: 'Work Sans Reg';
+        src: url('./assets/fonts/WorkSans-Regular.ttf');  
+        }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+    h1,h2,h3,h4,h5,h6, p, span,ul,ol,li {
+        margin: 0;
+        padding: 0;
+    }
+
+    .capitalize {
+        text-transform: capitalize;
+    }
+
+    body {
+        margin: 82px 82px 0px 112px;
+        background: no-repeat url("./assets/cee-illustration.png");
+    }
+
+    img {
+        width: 100%;
+    }
+
+    nav {
+        width: 180px;
+        height: 50px;
+    }
+
+    header {
+        margin: 95px 0 25px 0;
+        width: 73px;
+        height: 96px;
+    }
+
+    .content h1 {
+        font-size: 64px;
+        font-family: 'Work Sans Bold';
+    }
+
+    .content p {
+        font-size: 14px;
+        font-family: 'Work Sans Med';
+        margin-top: 10px;
+    }
+
+    .download {
+        margin-top: 87px;
+    }
+
+    .download-btns {
+        margin: 20px 0;
+        width: 342px;
+        height: 55px;
+        display: flex;
+    }
+    
+    .download-btns > a {
+        margin-inline-end: 12px;
+        width: 165px;
+        height: 55px;
+    }
+
+    .privacy {
+        font-size: 14px;
+        font-family: 'Work Sans Reg';
+        text-decoration: underline;
+    }
+    footer {
+        margin-top: 62px;
+    }
+
+    footer a {
+        font-size: 14px;
+        font-family: 'Work Sans Med';
+        text-decoration: underline;
+    }
+</style>
